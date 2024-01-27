@@ -72,3 +72,22 @@ footer a:hover {
         padding: 15px;
     }
 }
+
+.buy-button {
+    background-color: #4CAF50; /* Culoarea de fundal */
+    color: white; /* Culoarea textului */
+    padding: 15px 32px; /* Padding pentru dimensiune */
+    text-align: center; /* Alinează textul */
+    text-decoration: none; /* Elimină sublinierea textului */
+    display: inline-block; /* Tipul de afișare */
+    font-size: 16px; /* Dimensiunea fontului */
+    margin: 4px 2px; /* Margini în jurul butonului */
+    cursor: pointer; /* Schimbă cursorul când este deasupra butonului */
+    border: none; /* Elimină bordura */
+    border-radius: 8px; /* Rotunjirea colțurilor butonului */
+    transition-duration: 0.4s; /* Durata efectului de tranziție */
+}
+
+.buy-button:hover {
+    background-color: #45a049; /* Schimbă culoarea de fundal când este hover */
+}
